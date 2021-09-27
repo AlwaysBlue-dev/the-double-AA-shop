@@ -127,6 +127,12 @@ hr {
 /* ---------- Responsive Code ------------ */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .carousel-inner img {
+    height: 25rem;
+  }
+  .navbar-brand img {
+    margin-left: 1.5rem;
+  }
 }
 
 /* Portrait */
