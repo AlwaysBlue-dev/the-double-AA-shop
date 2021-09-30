@@ -23,6 +23,9 @@
 .nav-link:hover {
   background-color: #f08080;
 }
+.nav-item{
+  font-size: 1.3rem;
+}
 .navbar-brand img {
   width: 100%;
   height: 11rem;
@@ -38,6 +41,10 @@ h1 {
 .card {
   float: left;
   width: 18rem;
+}
+/* top handle bags */
+.card_handle14 {
+  height: 13.4rem;
 }
 /* shoulder bags*/
 .card_shoulder1 {
@@ -131,7 +138,7 @@ hr {
     height: 25rem;
   }
   .navbar-brand img {
-    margin-left: 1.5rem;
+    margin-left: 0.5rem;
   }
 }
 
@@ -161,6 +168,9 @@ hr {
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .navbar-brand img {
+    margin-left: 1.5rem;
+  }
 }
 
 /* Portrait */
@@ -202,6 +212,9 @@ hr {
 
 /* Portrait and Landscape */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+  .navbar-brand img {
+    margin-left: 1.2rem;
+  }
 }
 
 /* Portrait */
@@ -256,6 +269,9 @@ hr {
 
 /* Portrait and Landscape */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .navbar-brand img {
+    margin-left: 1.1rem;
+  }
 }
 
 /* Portrait */
@@ -351,6 +367,9 @@ hr {
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .nav-item {
+    font-size: small;
+  }
 }
 
 /* Portrait */
@@ -485,9 +504,53 @@ hr {
 }
 
 /* ----------- Retina Screens ----------- */
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+@media screen and (min-device-width: 1080px) and (max-device-width: 1920px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .nav-item {
+    font-size: 2rem;
+  }
+  .card_handle5 {
+    height: 23rem;
+  }
+  .card_handle6 {
+    height: 23rem;
+  }
+  .card_handle7 {
+    height: 23rem;
+  }
+  .card_handle8 {
+    height: 23rem;
+  }
+  .card_shoulder1 {
+    height: 23rem;
+  }
+  .card_shoulder2 {
+    height: 23rem;
+  }
+  .card_shoulder3 {
+    height: 23rem;
+  }
+  .card_shoulder4 {
+    height: 23rem;
+  }
+  .card_shoulder7 {
+    height: 19.5rem;
+  }
+  .card_shoulder8 {
+    height: 19.5rem;
+  }
+  .card_all5 {
+    height: 23.8rem;
+  }
+  .card_all6 {
+    height: 23.8rem;
+  }
+  .card_all21 {
+    height: 17.7rem;
+  }
+  .card_all22 {
+    height: 17.7rem;
+  }
 }
-
 /* @media (max-width: 280px) {
   .card_shoulder1 {
     width: 18rem;
