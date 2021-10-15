@@ -503,6 +503,27 @@ hr {
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
 }
 
+/* For Laptops */
+/* For 1024 Resolution */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .nav-item {
+    font-size: 1rem;
+  }
+  .card_shoulder3 {
+    height: 19.5rem;
+  }
+}
+/* For Laptops */
+/* For 1366 Resolution */
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+  .nav-item {
+    font-size: 1rem;
+  }
+  .card_shoulder3 {
+    height: 19.5rem;
+  }
+}
+
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 1080px) and (max-device-width: 1920px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   .nav-item {
