@@ -13,6 +13,9 @@
     <!-- Custom CSS link -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Animate On Scroll Library CSS link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +33,7 @@
     <!-- Navbar Section-->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="Images/logo.JPG" alt="logo" ></a>
+            <a class="navbar-brand" href="index.html"><img src="Images/logo.JPG" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -64,56 +67,56 @@
     </nav>
     <!-- Carousel Section -->
     <div class="container-fluid">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                aria-label="Slide 5"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
-                aria-label="Slide 6"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="Images/tophandlebranded2.jpeg" class="d-block" alt="product image">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
             </div>
-            <div class="carousel-item">
-                <img src="Images/bottega1.jpeg" class="d-block" alt="product image">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Images/tophandlebranded2.jpeg" class="d-block" alt="product image">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/bottega1.jpeg" class="d-block" alt="product image">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/gucci3.jpeg" class="d-block" alt="product image">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/flat13.jpg" class="d-block" alt="product image">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/tophandlenew10.jpeg" class=" d-block" alt="product image">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/backpack1.jpeg" class=" d-block" alt="product image">
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="Images/gucci3.jpeg" class="d-block" alt="product image">
-            </div>
-            <div class="carousel-item">
-                <img src="Images/flat13.jpg" class="d-block" alt="product image">
-            </div>
-            <div class="carousel-item">
-                <img src="Images/tophandlenew10.jpeg" class=" d-block" alt="product image">
-            </div>
-            <div class="carousel-item">
-                <img src="Images/backpack1.jpeg" class=" d-block" alt="product image">
-            </div>
-        </div>
 
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </div>
-</div>
     <!-- Top Handle Bags Section -->
-    <div>
+    <div data-aos="fade-up">
         <h1 class="mt-5 text-center">Top Handle Bags</h1>
         <div class="mt-5 text-center">
             <figure>
@@ -127,7 +130,7 @@
         </div>
     </div>
     <!-- Shoulder Bags Section -->
-    <div>
+    <div data-aos="fade-down">
         <h1 class="mt-5 text-center">Shoulder Bags</h1>
         <div class="mt-5 text-center">
             <figure>
@@ -142,7 +145,7 @@
     </div>
 
     <!-- Backpack Section -->
-    <div>
+    <div data-aos="fade-right">
         <h1 class="mt-5 text-center">Backpack</h1>
         <div class="mt-5 text-center">
             <figure>
@@ -157,7 +160,7 @@
     </div>
 
     <!-- Wedges Sandals Section -->
-    <div>
+    <div data-aos="fade-left">
         <h1 class="mt-5 text-center">Wedges Sandals</h1>
         <div class="mt-5 text-center">
             <figure>
@@ -172,7 +175,7 @@
     </div>
 
     <!-- Flat Slippers Section -->
-    <div>
+    <div data-aos="fade-up-right">
         <h1 class="mt-5 text-center">Flat Slippers</h1>
         <div class="mt-5 text-center">
             <figure>
@@ -229,6 +232,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
+
+    <!-- Animate On Scroll Library JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
